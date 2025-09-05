@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* margin: 50px; */
+    font-family: poppins, sans-serif;
+}
+
+header {
+    height: 75px;
+    border-bottom: 1px solid rgba(110, 104, 100, 0.3);
+
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.main-menu {
+    width: 50%;
+
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 10px 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a:hover {
+    color: rgba(232, 95, 21, 0.8);
+    font-size: 17px;
+
+}
+
+.menu-buttons {
+    width: 18%;
+
+}
+
+.menu-bt-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-bt-items {
+    margin: 10px;
+
+}
+
+.menu-bt-items a {}
+
+.bt-item {
+    border: 1px solid rgba(232, 95, 21, 254);
+    padding: 12px 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(211, 209, 208, 0.5);
+    background-color: white;
+}
+
+.bt-item:hover {
+    color: white;
+    background-color: rgba(232, 95, 21, 254);
+    font-size: medium;
+}
+
+/* Header section ends here */
+/* Main section starts from here */
+
+.spotlight {
+    font-family: poppins, sans-serif;
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotlight-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.main-left {
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding: 30px;
+}
+
+.main-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-left p {
+    margin: 30px 0;
+    color: rgb(36, 36, 36, 0.8);
+}
+
+.bt-main-page {
+    border: 1px solid rgba(232, 95, 21, 254);
+    padding: 12px 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(211, 209, 208, 0.5);
+    background-color: white;
+}
+
+.bt-main-page:hover {
+    color: white;
+    background-color: rgba(232, 95, 21, 254);
+    font-size: medium;
+}
+
+.main-right {}
+
+.spotlight-img img {
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+/* Potential Section starts from here */
+
+.potential-sec {
+    height: 500px;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+.potential-main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.potential-head {
+    margin-top: 30px;
+}
+
+.potential-main h2 {
+    font-size: 50px;
+
+}
+
+.potential-main p {
+    margin: 20px;
+}
+
+.potential-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.potential-item {
+    width: 17%;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 25px;
+}
+
+.potential-item:hover {
+    background-color: rgb(232, 232, 228);
+}
+
+.potential-item img {
+    height: 50px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.potential-item h2 {
+    margin: 10px 0;
+}
+
+.potential-item p {}
+
+/* Section referral starts from here */
+
+.referral-sec {
+    height: 100%;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.referral-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.referral-left {
+    width: 40%;
+
+}
+
+.referral-left h2 {
+    font-size: 40px;
+}
+
+.referral-left p {
+    margin: 10px 0;
+
+}
+
+.referral-list {
+    list-style: none;
+    margin: 20px 10px;
+
+}
+
+.referral-item {
+    line-height: 30px;
+    font-size: small;
+}
+
+.referral-left a {}
+
+.bt-referral {
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: rgba(232, 95, 21, 254);
+    font-size: medium;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.bt-referral:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(232, 95, 21, 254);
+}
+
+.referral-img {
+    width: 35%;
+    margin-left: 50px;
+
+}
+
+.referral-img img {}
+
+/* section Testimonials starts from here */
+
+.testimonials {
+    background-color: aliceblue;
+    height: 500px;
+    padding: 50px;
+}
+
+.testimony-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimony-head {
+
+}
+
+.testimony-head h2 {
+    font-size: 40px;
+}
+
+.testimony-head p {
+    margin: 20px;
+}
+
+.testimony-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testimony-items{
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 25px;
+    height: 200px;
+    padding-top: 70px;
+    box-shadow: 2px 2px 2px 2px rgba(118, 116, 116, 0.1);
+}
+
+.testimony-items p{
+    font-size: small;
+    
+}
+.testimony-items p:hover{
+    font-size: medium;
+    color: rgba(232, 95, 21);
+}
+.testimony-footer{
+    margin: 30px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.testimony-footer img{
+    height: 50px;
+}
+.testimony-footer h3{
+
+}
+
+/* Section Main page registration link section starts here */
+
+.main-reg{
+    background-color: rgba(232, 95, 21, 0.15);
+    padding: 100px;
+}
+.reg-link{
+    text-align: center;
+}
+.reg-link h2{
+    font-size: 40px;
+}
+.reg-link p{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+/* footer section starts from here */
+
+footer{
+    padding: 30px 0;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+div.chatbot{
+
+}
+div.chatbot img{
+    height: 30px;
+}
+.foot-links{
+    
+}
+.link-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-item{
+    margin-right: 10px;
+
+}
+.link-item a{
+    text-decoration: none;
+}
+footer hr{
+    margin: 20px 0;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+.bottom-footer p{
+
+}
+.socialmedia{   
+
+}
+.socialmedia ul{
+    list-style: none;
+    display: flex;
+}
+.socialmedia-icon{
+    height: 30px;
+    background-size: cover;
+}
+.socialmedia ul li{
+    margin-right: 20px;
+}
+.socialmedia ul li a{
+    text-decoration: none;
+}
