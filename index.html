@@ -15,6 +15,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const menu = document.querySelector('.main-menu');
+
+  hamburger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+
+
 <body>
 
     <header>
@@ -22,6 +32,11 @@
             <div class="logo">
                 <img src="Images/logo1.png" alt="" class="logo-img">
             </div>
+            <!-- Mobile Hamburger -->
+            <div class="hamburger" id="hamburger">
+              ☰
+            </div>
+
             <div class="main-menu">
                 <ul class="menu-list">
                     <li class="menu-item"><a href="#">Platform</a></li>
@@ -95,9 +110,10 @@
                         earnings.</p>
                     <ul class="referral-list">
                         <li class="referral-item">Invite friends and colleagues to BuddyFleet.</li>
-                        <li class="referral-item">Earn bonuses for every successful sign-up and active user.</l>
-                        <li class="referral-item">Unlock exclusive benefits as your network expands.</l>
-                        <li class="referral-item">Track your referrals and earnings directly in the app.</l>
+                        <li class="referral-item">Earn bonuses for every successful sign-up and active user.</li>
+                        <li class="referral-item">Unlock exclusive benefits as your network expands.</li>
+                        <li class="referral-item">Track your referrals and earnings directly in the app.</li>
+
                     </ul>
                     <a href="#"><button class="bt-referral">Join Referral Program</button></a>
                 </div>
@@ -179,5 +195,6 @@
     </footer>
 
 </body>
+
 
 </html>
