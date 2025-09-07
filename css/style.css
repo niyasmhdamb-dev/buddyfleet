@@ -588,3 +588,31 @@ p {
     width: 18%;
   }
 }
+
+/* ========== Hamburger Menu ========== */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .main-menu {
+    display: none;
+    width: 100%;
+  }
+  .main-menu.active {
+    display: block;
+  }
+  .menu-list {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
+
+
