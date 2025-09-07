@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    width: 1200px;
 }
 
 body {
@@ -426,4 +427,5 @@ footer hr{
 .socialmedia ul li a{
     text-decoration: none;
 }
+
 
